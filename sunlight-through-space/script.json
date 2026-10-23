@@ -1,0 +1,38 @@
+{
+  "title": "阳光为什么能穿过太空，温暖地球？",
+  "source": "Geo Story Studio · douyin-sunlight-through-space v002 分镜；事实依据 NASA Science Sun: Facts、Anatomy of an Electromagnetic Wave、Basics of Space Flight Ch.6、The Earth's Radiation Budget，NASA Earth Observatory Climate and Earth's Energy Budget",
+  "rate": 4,
+  "voices": {
+    "zh": { "name": "zh-CN-XiaoxiaoNeural" },
+    "kid": { "name": "zh-CN-YunxiaNeural", "rate": 6, "pitch": 8 },
+    "sun": { "name": "zh-CN-YunjianNeural", "rate": 0, "pitch": -4 },
+    "earth": { "name": "zh-CN-XiaoyiNeural", "rate": 4, "pitch": 4 }
+  },
+  "segments": [
+    { "id": "hook1", "voice": "kid", "text": "太阳离地球那么远，中间隔着广阔的太空。", "captions": ["太阳离地球那么远，", "中间隔着广阔的太空"], "gap": 0.25 },
+    { "id": "hook2", "voice": "kid", "text": "它的热，是怎么送过来的呀？", "gap": 0.35 },
+    { "id": "bridge", "voice": "kid", "text": "难道架了一座热空气大桥？", "gap": 0.3 },
+    { "id": "noBridge", "text": "没有这样的桥哦！", "gap": 0.25 },
+    { "id": "sunMail", "voice": "sun", "text": "嘿嘿，我用的是电磁波快递！", "gap": 0.4 },
+    { "id": "em", "text": "上一期讲到，太阳会发出太阳辐射。", "captions": ["上一期讲到，", "太阳会发出太阳辐射"], "gap": 0.25 },
+    { "id": "em2", "text": "它以电磁波的形式，把能量带向太空。", "captions": ["它以电磁波的形式，", "把能量带向太空"], "gap": 0.45 },
+    { "id": "sound", "text": "很多波要靠东西来传，比如声音，要靠空气振动。", "captions": ["很多波要靠东西来传，", "比如声音，", "要靠空气振动"], "gap": 0.3 },
+    { "id": "shout", "voice": "kid", "text": "喂！听得见吗？", "gap": 0.3 },
+    { "id": "vacuum", "text": "可在真空里，声音就传不出去了。", "captions": ["可在真空里，", "声音就传不出去了"], "gap": 0.35 },
+    { "id": "emNo", "text": "电磁波不一样，它传播不需要空气当媒介。", "captions": ["电磁波不一样，", "它传播不需要空气当媒介"], "gap": 0.3 },
+    { "id": "cross", "text": "所以，它能穿过真空，一路把能量送向地球。", "captions": ["所以，它能穿过真空，", "一路把能量送向地球"], "gap": 0.2 },
+    { "id": "kidRide", "voice": "kid", "text": "冲呀，搭上光波快车！", "gap": 0.35 },
+    { "id": "arrive", "voice": "earth", "text": "叮咚，快递到啦！", "gap": 0.35 },
+    { "id": "atmo", "text": "到达地球的太阳辐射，有一部分穿过大气，照到地面。", "captions": ["到达地球的太阳辐射，", "有一部分穿过大气，", "照到地面"], "gap": 0.25 },
+    { "id": "absorb", "text": "地表把它吸收，获得能量，就会升温。", "captions": ["地表把它吸收，", "获得能量，", "就会升温"], "gap": 0.3 },
+    { "id": "kidSand", "voice": "kid", "text": "难怪晒过太阳的沙滩，暖乎乎的！", "captions": ["难怪晒过太阳的沙滩，", "暖乎乎的！"], "gap": 0.45 },
+    { "id": "butNot", "text": "不过，太阳辐射可不会全部被地表吸收。", "captions": ["不过，太阳辐射", "可不会全部被地表吸收"], "gap": 0.3 },
+    { "id": "reflect", "text": "有些被云或地表反射回太空。", "captions": ["有些被云或地表", "反射回太空"], "gap": 0.25 },
+    { "id": "airSip", "text": "还有些在半路，被大气吸收。", "gap": 0.25 },
+    { "id": "part", "text": "地表吸收的，只是其中一部分。", "gap": 0.5 },
+    { "id": "sum", "text": "记住这条路线：太阳辐射，穿过太空，部分被地表吸收。", "captions": ["记住这条路线：", "太阳辐射，", "穿过太空，", "部分被地表吸收"], "gap": 0.25 },
+    { "id": "sum2", "text": "这就是太阳温暖地球的一个重要过程。", "captions": ["这就是太阳温暖地球的", "一个重要过程"], "gap": 0.4 },
+    { "id": "sunBye", "voice": "sun", "text": "电磁波快递，不用修路，照样送到！", "captions": ["电磁波快递，", "不用修路，照样送到！"], "gap": 0.3 },
+    { "id": "kidBye", "voice": "kid", "text": "原来阳光就是电磁波，一路穿过太空来的！", "captions": ["原来阳光就是电磁波，", "一路穿过太空来的！"] }
+  ]
+}

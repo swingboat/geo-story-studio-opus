@@ -1,0 +1,42 @@
+{
+  "rate": 6,
+  "voices": {
+    "zh": { "name": "zh-CN-XiaoxiaoNeural" },
+    "sun": { "name": "zh-CN-YunjianNeural", "rate": 4, "pitch": -2 },
+    "earth": { "name": "zh-CN-YunxiNeural", "rate": 6, "pitch": 2 },
+    "moon": { "name": "zh-CN-XiaoyiNeural", "rate": 4, "pitch": 6 },
+    "sat": { "name": "zh-CN-YunxiaNeural", "rate": 12, "pitch": 10 }
+  },
+  "segments": [
+    { "id": "hook", "text": "太阳、地球、月球，天天见面，可它们的身份，完全不一样！", "captions": ["太阳、地球、月球，", "天天见面，", "可它们的身份，完全不一样！"], "gap": 0.5 },
+    { "id": "open", "text": "宇宙身份登记处，开张！只查两件事：", "captions": ["宇宙身份登记处，开张！", "只查两件事："], "gap": 0.3 },
+    { "id": "rules", "text": "第一，光从哪来？第二，谁绕谁转？", "captions": ["第一，光从哪来？", "第二，谁绕谁转？"], "gap": 0.6 },
+    { "id": "sunHi", "voice": "sun", "text": "我先来！", "gap": 0.3 },
+    { "id": "sunQ", "text": "太阳，你的光从哪来？", "gap": 0.3 },
+    { "id": "sunA", "voice": "sun", "text": "我自己造！我由高温等离子体构成，核心一直在核聚变！", "captions": ["我自己造！", "我由高温等离子体构成，", "核心一直在核聚变！"], "gap": 0.4 },
+    { "id": "sunStamp", "text": "能量来自核心，持续发光发热。盖章：恒星！", "captions": ["能量来自核心，持续发光发热", "盖章：恒星！"], "gap": 0.8 },
+    { "id": "earthHi", "voice": "earth", "text": "到我了到我了！", "gap": 0.3 },
+    { "id": "earthQ", "text": "地球，你绕谁转？", "gap": 0.3 },
+    { "id": "earthA", "voice": "earth", "text": "绕太阳转，一年一圈！", "gap": 0.3 },
+    { "id": "earthL", "text": "那你的光从哪来？", "gap": 0.3 },
+    { "id": "earthLA", "voice": "earth", "text": "看得见的光，是反射太阳的。", "gap": 0.4 },
+    { "id": "earthIR", "text": "不过换上红外眼镜，地球自己也在发出热辐射。", "captions": ["不过换上红外眼镜，", "地球自己也在发出热辐射"], "gap": 0.3 },
+    { "id": "earthIR2", "voice": "earth", "text": "嘿嘿，只是你眼睛看不见！", "gap": 0.4 },
+    { "id": "earthStamp", "text": "绕太阳运行，盖章：行星！", "gap": 0.8 },
+    { "id": "moonHi", "voice": "moon", "text": "该我了！我晚上这么亮，肯定是恒星吧？", "captions": ["该我了！", "我晚上这么亮，肯定是恒星吧？"], "gap": 0.4 },
+    { "id": "moonTest", "text": "做个假设实验：把照向你的太阳光关掉。", "captions": ["做个假设实验：", "把照向你的太阳光关掉"], "gap": 0.5 },
+    { "id": "moonOops", "voice": "moon", "text": "哎？我怎么暗了！", "gap": 0.4 },
+    { "id": "moonLight", "text": "明亮的月光，主要是月面反射的太阳光。", "captions": ["明亮的月光，", "主要是月面反射的太阳光"], "gap": 0.5 },
+    { "id": "moonQ", "text": "再说，你绕谁转？", "gap": 0.3 },
+    { "id": "moonA", "voice": "moon", "text": "绕……地球。", "gap": 0.3 },
+    { "id": "moonStamp", "text": "月球绕地球运行，盖章：天然卫星！", "captions": ["月球绕地球运行，", "盖章：天然卫星！"], "gap": 0.6 },
+    { "id": "satHi", "voice": "sat", "text": "我也是卫星！", "gap": 0.3 },
+    { "id": "satNo", "text": "你是人造卫星，先排队。今天说的是天然卫星。", "captions": ["你是人造卫星，先排队", "今天说的是天然卫星"], "gap": 0.9 },
+    { "id": "sum", "text": "放在一起记：太阳是恒星，地球是行星，月球是天然卫星。", "captions": ["放在一起记：", "太阳是恒星，", "地球是行星，", "月球是天然卫星"], "gap": 0.4 },
+    { "id": "sumRule", "text": "先看光从哪来，再看谁绕谁转。", "gap": 0.9 },
+    { "id": "quiz", "text": "最后考考你：月球这么亮，它属于哪一类？", "captions": ["最后考考你：", "月球这么亮，它属于哪一类？"], "gap": 2.6 },
+    { "id": "answer", "text": "答案：C，地球的天然卫星！", "gap": 0.4 },
+    { "id": "moonEnd", "voice": "moon", "text": "好吧，我是靠反光出道的！", "gap": 0.4 },
+    { "id": "cta", "text": "答对的，评论区扣个C！" }
+  ]
+}

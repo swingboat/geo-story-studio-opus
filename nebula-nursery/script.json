@@ -1,0 +1,31 @@
+{
+  "title": "星云都是“恒星的摇篮”吗？",
+  "source": "Geo Story Studio · douyin-nebula-nursery v002 分镜；事实依据 NASA Hubble’s Nebulae、NASA Space Place What Is a Nebula?、NASA/ESA Webb Ring Nebula (NIRCam Image)",
+  "rate": 4,
+  "voices": {
+    "zh": { "name": "zh-CN-XiaoxiaoNeural" },
+    "orion": { "name": "zh-CN-XiaoyiNeural", "rate": 4, "pitch": 4 },
+    "baby": { "name": "zh-CN-YunxiaNeural", "rate": 6, "pitch": 12 },
+    "ring": { "name": "zh-CN-YunyangNeural", "rate": -4, "pitch": -6 }
+  },
+  "segments": [
+    { "id": "hook", "text": "这些漂亮的宇宙云，都是恒星的摇篮吗？", "captions": ["这些漂亮的宇宙云，", "都是恒星的摇篮吗？"], "gap": 0.3 },
+    { "id": "stick", "text": "啪！啪！统统贴上“恒星摇篮”？", "captions": ["啪！啪！", "统统贴上“恒星摇篮”？"], "gap": 0.25 },
+    { "id": "ringNo", "voice": "ring", "text": "等等！我可不是摇篮！", "gap": 0.6 },
+    { "id": "what1", "text": "先认清：星云，是宇宙中的气体和尘埃云。", "captions": ["先认清：", "星云，是宇宙中的气体和尘埃云"], "gap": 0.3 },
+    { "id": "what2", "text": "“恒星摇篮”这个比喻，只适合其中一些区域。", "captions": ["“恒星摇篮”这个比喻，", "只适合其中一些区域"], "gap": 0.6 },
+    { "id": "orion1", "text": "比如猎户座大星云，它是恒星形成区域。", "captions": ["比如猎户座大星云，", "它是恒星形成区域"], "gap": 0.25 },
+    { "id": "orionHi", "voice": "orion", "text": "没错！我这儿，正在孕育新恒星！", "captions": ["没错！", "我这儿，正在孕育新恒星！"], "gap": 0.4 },
+    { "id": "collapse", "text": "在适合的致密区域，气体和尘埃在引力下收缩，逐渐形成原恒星。", "captions": ["在适合的致密区域，", "气体和尘埃在引力下收缩，", "逐渐形成原恒星"], "gap": 0.3 },
+    { "id": "baby", "voice": "baby", "text": "哇！我是原恒星，还在长大呢！", "captions": ["哇！", "我是原恒星，还在长大呢！"], "gap": 0.7 },
+    { "id": "ring1", "text": "但有些星云，来自恒星演化的晚年。", "gap": 0.3 },
+    { "id": "ring2", "text": "环状星云就是一个例子：它的气体，来自原来的恒星向外抛出的外层物质。", "captions": ["环状星云就是一个例子：", "它的气体，", "来自原来的恒星", "向外抛出的外层物质"], "gap": 0.3 },
+    { "id": "ringHi", "voice": "ring", "text": "这一圈，是我晚年脱下的外衣！", "captions": ["这一圈，", "是我晚年脱下的外衣！"], "gap": 0.4 },
+    { "id": "name", "text": "它也叫行星状星云，不过，和行星没关系哦。", "captions": ["它也叫行星状星云，", "不过，和行星没关系哦"], "gap": 0.7 },
+    { "id": "sum1", "text": "所以，星云不全是恒星的摇篮。", "gap": 0.3 },
+    { "id": "sum2", "text": "有些见证诞生，有些记录晚年。要看它的来源和内部过程。", "captions": ["有些见证诞生，", "有些记录晚年", "要看它的来源和内部过程"], "gap": 0.6 },
+    { "id": "end1", "text": "下次看到星云，先别急着叫它摇篮。", "captions": ["下次看到星云，", "先别急着叫它摇篮"], "gap": 0.3 },
+    { "id": "end2", "text": "看看它从哪里来，再理解它正在发生什么。", "captions": ["看看它从哪里来，", "再理解它正在发生什么"], "gap": 0.5 },
+    { "id": "cta", "text": "你还认识哪些星云？评论区说说它的身世！", "captions": ["你还认识哪些星云？", "评论区说说它的身世！"] }
+  ]
+}

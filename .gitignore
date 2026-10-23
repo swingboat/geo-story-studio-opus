@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+._*
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# 中间产物和成片（可由 tts.py / render.mjs 重新生成）
+build/
+out/
+
+# 视频文件不入库
+*.mp4
+*.mov
+*.m4v
+*.webm
+*.mkv
+*.avi
+*.gif
+
+# 音频和字幕
+*.wav
+*.mp3
+*.srt
+
+# 编辑器
+.idea/
+*.swp
+.vscode/*
+!.vscode/settings.json
+
+# 环境变量和密钥
+.env
+.env.*

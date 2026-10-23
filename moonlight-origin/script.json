@@ -1,0 +1,31 @@
+{
+  "title": "月亮那么亮，它的光从哪里来？",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "voices": {
+    "zh": { "name": "zh-CN-XiaoxiaoNeural" },
+    "kid": { "name": "zh-CN-YunxiaNeural", "rate": 4, "pitch": 6 },
+    "moon": { "name": "zh-CN-XiaoyiNeural", "rate": 2, "pitch": 3 }
+  },
+  "sources": [
+    "NASA Moonlight https://science.nasa.gov/moon/moonlight/",
+    "NASA Moon Phases https://science.nasa.gov/moon/moon-phases/",
+    "NASA Moon Facts https://science.nasa.gov/moon/facts/",
+    "NASA Our Sun: Facts https://science.nasa.gov/sun/facts/"
+  ],
+  "segments": [
+    { "id": "hook", "voice": "kid", "text": "哇，今晚的月亮好亮！它是自己在发光吗？", "gap": 0.4 },
+    { "id": "ask", "text": "抬头看到亮亮的月亮，你有没有想过：它的光从哪里来？", "gap": 0.5 },
+    { "id": "confess", "voice": "moon", "text": "嘘，告诉你个秘密：我的亮光，是借来的！", "gap": 0.6 },
+    { "id": "sun", "text": "我们看到的明亮月光，主要来自太阳光。", "gap": 0.35 },
+    { "id": "step1", "text": "第一步：太阳发出光，照到月面。", "gap": 0.5 },
+    { "id": "step2", "text": "第二步：月面把光反射出去，散向很多方向。", "gap": 0.35 },
+    { "id": "step3", "text": "其中一部分到达地球，进入我们的眼睛。于是，我们看见了月亮！", "captions": ["其中一部分到达地球，", "进入我们的眼睛。", "于是，我们看见了月亮！"], "gap": 0.6 },
+    { "id": "lamp", "text": "就像黑屋子里，台灯照亮一个皮球：球自己不发光，我们照样能看见它。", "captions": ["就像黑屋子里，", "台灯照亮一个皮球：", "球自己不发光，", "我们照样能看见它。"], "gap": 0.6 },
+    { "id": "kidQ", "voice": "kid", "text": "那月亮到底是什么呀？", "gap": 0.35 },
+    { "id": "sat", "text": "月球绕着地球运行，是地球的天然卫星。", "gap": 0.35 },
+    { "id": "visible", "text": "我们说它很亮，说的是月面反射来的可见月光。", "captions": ["我们说它很亮，", "说的是月面反射来的可见月光。"], "gap": 0.6 },
+    { "id": "recap", "text": "记住这条光路：太阳发出光，月面反射光，我们看见月光！", "captions": ["记住这条光路：", "太阳发出光，", "月面反射光，", "我们看见月光！"], "gap": 0.5 },
+    { "id": "kidEnd", "voice": "kid", "text": "原来月光，是月亮转送给我们的太阳光！", "captions": ["原来月光，", "是月亮转送给我们的太阳光！"], "gap": 0.35 },
+    { "id": "moonEnd", "voice": "moon", "text": "下次看月亮，也记得谢谢太阳哦！" }
+  ]
+}

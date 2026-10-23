@@ -1,0 +1,33 @@
+{
+  "title": "我们在宇宙中的什么位置？",
+  "source": "Geo Story Studio · douyin-cosmic-address v002 分镜；事实依据 NASA Science（Moon Facts、Solar System Facts、Our Sun: Facts、Galaxies、What is the Universe?、APOD 2022-03-16 The Observable Universe）",
+  "rate": 4,
+  "voices": {
+    "zh": { "name": "zh-CN-XiaoxiaoNeural" },
+    "alien": { "name": "zh-CN-YunxiaNeural", "rate": 10, "pitch": 8 },
+    "earth": { "name": "zh-CN-YunxiNeural", "rate": 6, "pitch": 2 },
+    "moon": { "name": "zh-CN-XiaoyiNeural", "rate": 4, "pitch": 6 }
+  },
+  "segments": [
+    { "id": "hook", "text": "叮咚！宇宙快递！收件人：地球。", "captions": ["叮咚！宇宙快递！", "收件人：地球"], "gap": 0.35 },
+    { "id": "alienQ", "voice": "alien", "text": "地球在哪儿？宇宙这么大，光写地球可送不到啊！", "captions": ["地球在哪儿？", "宇宙这么大，", "光写地球可送不到啊！"], "gap": 0.4 },
+    { "id": "plan", "text": "那就给地球写个宇宙地址。跟着镜头，一层层往外看！", "captions": ["那就给地球写个宇宙地址", "跟着镜头，一层层往外看！"], "gap": 0.7 },
+    { "id": "moon1", "text": "第一层：地月系。月球绕着地球运行，这是我们身边的一组天体。", "captions": ["第一层：地月系", "月球绕着地球运行，", "这是我们身边的一组天体"], "gap": 0.35 },
+    { "id": "moonHi", "voice": "moon", "text": "我和地球的平均距离，约38.4万千米！", "captions": ["我和地球的平均距离，", "约38.4万千米！"], "gap": 0.7 },
+    { "id": "sun1", "text": "再拉远，就来到太阳系：太阳、八颗行星，还有卫星、小行星和彗星等。", "captions": ["再拉远，就来到太阳系", "太阳、八颗行星，", "还有卫星、小行星和彗星等"], "gap": 0.35 },
+    { "id": "alienS", "voice": "alien", "text": "八颗行星，哪颗是地球？", "gap": 0.3 },
+    { "id": "earthS", "voice": "earth", "text": "从太阳往外数，第三颗就是我！", "gap": 0.4 },
+    { "id": "sun2", "text": "日地平均距离约1.5亿千米。地月系，只是太阳系的一小部分。", "captions": ["日地平均距离约1.5亿千米", "地月系，只是太阳系的一小部分"], "gap": 0.7 },
+    { "id": "gal1", "text": "再往外看，太阳只是银河系中的一颗恒星。", "captions": ["再往外看，", "太阳只是银河系中的一颗恒星"], "gap": 0.3 },
+    { "id": "gal2", "text": "银河系至少有千亿颗恒星，这个数量是估计值。", "captions": ["银河系至少有千亿颗恒星，", "这个数量是估计值"], "gap": 0.3 },
+    { "id": "alienG", "voice": "alien", "text": "千亿颗？我眼睛不够用了！", "gap": 0.7 },
+    { "id": "beyond", "text": "银河系之外，还有许多其他星系。", "gap": 0.3 },
+    { "id": "alienB", "voice": "alien", "text": "那最后一行，写宇宙的边界？", "gap": 0.35 },
+    { "id": "obs1", "text": "不如写：可观测宇宙，也就是信息能够到达我们的范围。", "captions": ["不如写：可观测宇宙，", "也就是信息能够到达我们的范围"], "gap": 0.35 },
+    { "id": "obs2", "text": "这个虚线圈，不是整个宇宙的边界；圈的中心，只是我们选取的观测位置。", "captions": ["这个虚线圈，", "不是整个宇宙的边界", "圈的中心，", "只是我们选取的观测位置"], "gap": 0.3 },
+    { "id": "alienO", "voice": "alien", "text": "懂了！不是宇宙中心，是观测位置！", "captions": ["懂了！", "不是宇宙中心，是观测位置！"], "gap": 0.7 },
+    { "id": "recap", "text": "地址写好了：地球、地月系、太阳系、银河系，再到可观测宇宙。", "captions": ["地址写好了：", "地球、地月系、太阳系、银河系，", "再到可观测宇宙"], "gap": 0.35 },
+    { "id": "send", "voice": "alien", "text": "收到！宇宙快递，出发！", "gap": 0.6 },
+    { "id": "cta", "text": "换你来写：你的宇宙地址，第一行写什么？评论区见！", "captions": ["换你来写：", "你的宇宙地址，第一行写什么？", "评论区见！"] }
+  ]
+}

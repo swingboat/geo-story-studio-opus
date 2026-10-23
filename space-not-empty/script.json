@@ -1,0 +1,32 @@
+{
+  "title": "太空里真的空无一物吗？",
+  "source": "Geo Story Studio · douyin-empty-space v002 分镜；事实依据 NASA Hubble’s Nebulae、NASA Space Place What Is a Nebula?、NASA Science Heliophysics Big Idea 2.2、NASA SVS Our Interstellar Medium",
+  "rate": 4,
+  "voices": {
+    "zh": { "name": "zh-CN-XiaoxiaoNeural" },
+    "kid": { "name": "zh-CN-YunxiaNeural", "rate": 6, "pitch": 8 }
+  },
+  "segments": [
+    { "id": "hook", "voice": "kid", "text": "星星之间黑漆漆的，是不是啥都没有呀？", "captions": ["星星之间黑漆漆的，", "是不是啥都没有呀？"], "gap": 0.35 },
+    { "id": "lens", "text": "拿个超级放大镜，凑近瞧瞧！", "gap": 0.3 },
+    { "id": "see", "text": "看！这里飘着稀薄的气体，还有细细的尘埃。", "captions": ["看！这里飘着稀薄的气体，", "还有细细的尘埃"], "gap": 0.25 },
+    { "id": "gas", "text": "气体主要是氢和氦。", "gap": 0.3 },
+    { "id": "name", "text": "它们合起来，叫作星际介质！", "gap": 0.6 },
+    { "id": "kidHow", "voice": "kid", "text": "那它们，到底有多稀呀？", "gap": 0.35 },
+    { "id": "cube", "text": "拿一块小方糖那么大的空间，来比一比。", "captions": ["拿一块小方糖那么大的空间，", "来比一比"], "gap": 0.3 },
+    { "id": "air", "text": "在地球上，这么点空气里，挤着大约一千亿亿个分子！", "captions": ["在地球上，这么点空气里，", "挤着大约一千亿亿个分子！"], "gap": 0.35 },
+    { "id": "ism", "text": "而星际介质最稀的地方，十块方糖那么大，才大约一个原子！", "captions": ["而星际介质最稀的地方，", "十块方糖那么大，", "才大约一个原子！"], "gap": 0.35 },
+    { "id": "kidLonely", "voice": "kid", "text": "哇，它也太孤单了吧！这不就等于没有嘛？", "captions": ["哇，它也太孤单了吧！", "这不就等于没有嘛？"], "gap": 0.3 },
+    { "id": "notZero", "text": "可不能这么说！少，也是有。", "captions": ["可不能这么说！", "少，也是有"], "gap": 0.25 },
+    { "id": "neq", "text": "非常稀薄，和完全没有，可不是一回事。", "captions": ["非常稀薄，和完全没有，", "可不是一回事"], "gap": 0.6 },
+    { "id": "uneven", "text": "而且，这些物质分布得并不均匀。", "gap": 0.3 },
+    { "id": "sparse", "text": "有的地方稀稀拉拉，", "gap": 0.15 },
+    { "id": "cloud", "text": "有的地方，引力把气体和尘埃拉到一起，聚成了一大片云——这就是星云！", "captions": ["有的地方，", "引力把气体和尘埃拉到一起，", "聚成了一大片云", "这就是星云！"], "gap": 0.3 },
+    { "id": "kidWow", "voice": "kid", "text": "哇，好漂亮！", "gap": 0.25 },
+    { "id": "birth", "text": "有些星云里，还能诞生新的恒星呢。", "captions": ["有些星云里，", "还能诞生新的恒星呢"], "gap": 0.5 },
+    { "id": "zoom", "text": "再拉远看：星云，和周围稀薄的气体尘埃连成一片，都是星际介质的一部分。", "captions": ["再拉远看：", "星云，和周围稀薄的气体尘埃", "连成一片", "都是星际介质的一部分"], "gap": 0.6 },
+    { "id": "sum", "text": "所以，看起来空旷，不等于空无一物。", "captions": ["所以，看起来空旷，", "不等于空无一物"], "gap": 0.4 },
+    { "id": "end", "text": "下次仰望星空，别忘了：恒星之间，也飘着稀薄的气体和尘埃！", "captions": ["下次仰望星空，别忘了：", "恒星之间，", "也飘着稀薄的气体和尘埃！"], "gap": 0.35 },
+    { "id": "kidBye", "voice": "kid", "text": "原来太空，一点也不空！" }
+  ]
+}

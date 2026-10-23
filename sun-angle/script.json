@@ -1,0 +1,36 @@
+{
+  "title": "为什么同样晒太阳，有的地方更热？",
+  "source": "Geo Story Studio · douyin-sun-angle v002 分镜；事实依据 NASA Earth Observatory: Climate and Earth's Energy Budget，NOAA NESDIS / NASA Space Place: How Do Clouds Affect Solar Energy?",
+  "rate": 4,
+  "voices": {
+    "zh": { "name": "zh-CN-XiaoxiaoNeural" },
+    "kid": { "name": "zh-CN-YunxiaNeural", "rate": 6, "pitch": 8 },
+    "sun": { "name": "zh-CN-YunjianNeural", "rate": 0, "pitch": -4 },
+    "cloud": { "name": "zh-CN-XiaoyiNeural", "rate": 4, "pitch": 4 }
+  },
+  "segments": [
+    { "id": "hook", "voice": "kid", "text": "同样是晒太阳，为什么有的地方更热呀？", "captions": ["同样是晒太阳，", "为什么有的地方更热呀？"], "gap": 0.3 },
+    { "id": "sunFair", "voice": "sun", "text": "冤枉啊，我对谁都一样大方！", "captions": ["冤枉啊，", "我对谁都一样大方！"], "gap": 0.35 },
+    { "id": "secret", "text": "秘密，藏在阳光照下来的角度里。", "captions": ["秘密，", "藏在阳光照下来的角度里"], "gap": 0.45 },
+    { "id": "fair", "text": "先做一个公平比较：同样的光束，照同样长的时间，落在同样的平地上。", "captions": ["先做一个公平比较：", "同样的光束，", "照同样长的时间，", "落在同样的平地上"], "gap": 0.25 },
+    { "id": "only", "text": "只改变一样东西，照射角度。", "captions": ["只改变一样东西，", "照射角度"], "gap": 0.4 },
+    { "id": "kidTorch", "voice": "kid", "text": "我拿手电筒试试！", "gap": 0.3 },
+    { "id": "straight", "text": "正对着地面照，光斑又小又亮。", "captions": ["正对着地面照，", "光斑又小又亮"], "gap": 0.3 },
+    { "id": "tilt", "text": "斜着照，光斑一下子拉长变大，也变暗了。", "captions": ["斜着照，", "光斑一下子拉长变大，", "也变暗了"], "gap": 0.3 },
+    { "id": "kidWhy", "voice": "kid", "text": "咦？光又没少，怎么变暗了？", "captions": ["咦？光又没少，", "怎么变暗了？"], "gap": 0.4 },
+    { "id": "beans", "text": "把光的能量，想成一颗颗能量豆。", "captions": ["把光的能量，", "想成一颗颗能量豆"], "gap": 0.35 },
+    { "id": "direct", "text": "照得越接近垂直，同样八颗豆，就挤在较小的面积上。", "captions": ["照得越接近垂直，", "同样八颗豆，", "就挤在较小的面积上"], "gap": 0.25 },
+    { "id": "directSq", "text": "每一格，能分到四颗。", "gap": 0.45 },
+    { "id": "slant", "text": "照得更倾斜，同样八颗豆，就摊在更大的面积上。", "captions": ["照得更倾斜，", "同样八颗豆，", "就摊在更大的面积上"], "gap": 0.25 },
+    { "id": "slantSq", "text": "每一格，只分到两颗。", "gap": 0.3 },
+    { "id": "perM2", "text": "每平方米分到的能量，自然就少了。", "captions": ["每平方米分到的能量，", "自然就少了"], "gap": 0.35 },
+    { "id": "kidButter", "voice": "kid", "text": "就像一小块黄油，抹在大面包上，就只剩薄薄一层！", "captions": ["就像一小块黄油，", "抹在大面包上，", "就只剩薄薄一层！"], "gap": 0.45 },
+    { "id": "butNot", "text": "不过，照射角度不能单独决定实际气温。", "captions": ["不过，照射角度", "不能单独决定实际气温"], "gap": 0.3 },
+    { "id": "hours", "text": "太阳照了多长时间，也会影响受热。", "captions": ["太阳照了多长时间，", "也会影响受热"], "gap": 0.3 },
+    { "id": "cloudHi", "voice": "cloud", "text": "还有我！云量多少，也会改变照到地面的阳光。", "captions": ["还有我！", "云量多少，", "也会改变照到地面的阳光"], "gap": 0.3 },
+    { "id": "together", "text": "实际有多热，要把这些条件放在一起看。", "captions": ["实际有多热，", "要把这些条件放在一起看"], "gap": 0.5 },
+    { "id": "sum", "text": "记住：其他条件相同时，阳光越倾斜，同样的能量摊得越开，每平方米接收到的能量就越少。", "captions": ["记住：其他条件相同时，", "阳光越倾斜，", "同样的能量摊得越开，", "每平方米接收到的能量", "就越少"], "gap": 0.35 },
+    { "id": "sunBye", "voice": "sun", "text": "我可没偏心，是角度在分能量哦！", "captions": ["我可没偏心，", "是角度在分能量哦！"], "gap": 0.3 },
+    { "id": "kidBye", "voice": "kid", "text": "原来斜着照，能量被摊薄啦！", "captions": ["原来斜着照，", "能量被摊薄啦！"] }
+  ]
+}
