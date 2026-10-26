@@ -1,0 +1,53 @@
+{
+  "title": "彗星的尾巴，一定拖在身后吗？",
+  "curriculum": "人教版必修第一册 第一章第一节 地球的宇宙环境（天体类型：彗星）；关联第一章第二节 太阳对地球的影响（太阳风）。课标1.1：运用资料，描述地球所处的宇宙环境，说明太阳对地球的影响。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": 4,
+  "voices": {
+    "zh": { "name": "zh-CN-XiaoxiaoNeural" },
+    "comet": { "name": "zh-CN-YunxiaNeural", "rate": 6, "pitch": 6 }
+  },
+  "numbers": [
+    { "value": "通常不超过约16公里", "what": "彗核大小", "source": "NASA Space Place《What Is a Comet?》：nucleus usually less than 10 miles (16 km) across" },
+    { "value": "约15×8公里，只反射约3%的光", "what": "哈雷彗星彗核", "source": "NASA Science《1P/Halley》：15 km by 8 km，albedo 0.03" },
+    { "value": "约76年；1986年来过，2061年回归", "what": "哈雷彗星周期", "source": "NASA Science《1P/Halley》" },
+    { "value": "数百万英里", "what": "彗尾长度", "source": "NASA Space Place：a bright tail that stretches away from the Sun for millions of miles" }
+  ],
+  "sources": [
+    { "title": "What Is a Comet?", "publisher": "NASA Space Place", "url": "https://spaceplace.nasa.gov/comets/en/" },
+    { "title": "1P/Halley", "publisher": "NASA Science", "url": "https://science.nasa.gov/solar-system/comets/1p-halley/" },
+    { "title": "Comet Facts", "publisher": "NASA", "url": "https://science.nasa.gov/solar-system/comets/facts/" },
+    { "title": "Structure of a comet", "publisher": "ESA", "url": "https://www.esa.int/ESA_Multimedia/Images/2023/11/Structure_of_a_comet" },
+    { "title": "Comet research（升华、电离与太阳风）", "publisher": "DLR", "url": "https://www.dlr.de/en/research-and-transfer/projects-and-missions/rosetta/comet-research" }
+  ],
+  "segments": [
+    { "id": "hook", "text": "古人叫它扫把星，拖着一条长尾巴。", "gap": 0.25 },
+    { "id": "q", "text": "可彗星的尾巴，真的一直拖在身后吗？", "gap": 0.6 },
+
+    { "id": "hi", "voice": "comet", "text": "嗨，我是哈雷彗星！现在离太阳太远，我一根尾巴都没有。", "captions": ["嗨，我是哈雷彗星！", "现在离太阳太远，", "我一根尾巴都没有。"], "gap": 0.35 },
+    { "id": "core", "text": "彗星的核心叫彗核，是冰和尘埃冻成的脏雪球，哈雷的彗核只有十几公里长。", "captions": ["彗星的核心叫彗核，", "是冰和尘埃冻成的脏雪球，", "哈雷的彗核只有十几公里长。"], "gap": 0.55 },
+
+    { "id": "hot", "voice": "comet", "text": "越靠近太阳越热，我要冒烟啦！", "gap": 0.3 },
+    { "id": "subl", "text": "受太阳加热，彗核表面的冰不经过液态，直接变成气体，这叫升华。", "captions": ["受太阳加热，", "彗核表面的冰不经过液态，", "直接变成气体，这叫升华。"], "gap": 0.3 },
+    { "id": "jet", "text": "喷出的气体，还把尘埃一起带了出来。", "gap": 0.5 },
+
+    { "id": "coma", "text": "气体和尘埃包围彗核，形成朦胧的彗发。", "gap": 0.3 },
+    { "id": "hair", "voice": "comet", "text": "看，我长头发啦！", "gap": 0.55 },
+
+    { "id": "hands", "text": "接着，太阳伸出了两只手。", "gap": 0.3 },
+    { "id": "dust", "text": "第一只是光压，阳光把尘埃推开，形成又宽又弯的尘埃尾。", "captions": ["第一只是光压，", "阳光把尘埃推开，", "形成又宽又弯的尘埃尾。"], "gap": 0.3 },
+    { "id": "ion", "text": "第二只是太阳风，带电粒子流拽着电离的气体，拉出又细又直的离子尾。", "captions": ["第二只是太阳风，", "带电粒子流拽着电离的气体，", "拉出又细又直的离子尾。"], "gap": 0.3 },
+    { "id": "cool", "voice": "comet", "text": "两条尾巴，帅不帅？", "gap": 0.55 },
+
+    { "id": "rule", "text": "关键来了：两条彗尾都背向太阳，离子尾几乎正对太阳的反方向。", "captions": ["关键来了：", "两条彗尾都背向太阳，", "离子尾几乎正对太阳的反方向。"], "gap": 0.3 },
+    { "id": "turn", "text": "所以，彗星绕过太阳往回飞时，", "gap": 0.15 },
+    { "id": "ahead", "text": "尾巴反而跑到了前面！", "gap": 0.3 },
+    { "id": "huh", "voice": "comet", "text": "哎？我的尾巴怎么跑前头去了？", "gap": 0.35 },
+    { "id": "wind", "text": "就像风里的长头发，不管你往哪走，头发总被风吹向同一边。", "captions": ["就像风里的长头发，", "不管你往哪走，", "头发总被风吹向同一边。"], "gap": 0.6 },
+
+    { "id": "exam", "text": "考试看到彗星图，记住：彗尾方向看太阳，不看飞行方向；太阳就在彗尾的反方向。", "captions": ["考试看到彗星图，记住：", "彗尾方向看太阳，", "不看飞行方向；", "太阳就在彗尾的反方向。"], "gap": 0.6 },
+
+    { "id": "sum", "text": "一句话：太阳加热，冰升华出气体和尘埃；光压和太阳风，把它们吹成背向太阳的彗尾。", "captions": ["一句话：太阳加热，", "冰升华出气体和尘埃；", "光压和太阳风，", "把它们吹成背向太阳的彗尾。"], "gap": 0.5 },
+    { "id": "bye", "voice": "comet", "text": "我每七十六年回来一次，二零六一年，记得抬头找我！", "captions": ["我每七十六年回来一次，", "二零六一年，", "记得抬头找我！"] }
+  ]
+}

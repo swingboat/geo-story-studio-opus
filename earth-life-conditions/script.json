@@ -1,0 +1,58 @@
+{
+  "title": "宜居星球面试会：地球凭什么能住人？",
+  "curriculum": "人教版必修第一册 第一章第一节 地球的宇宙环境（地球上存在生命的条件）。课标1.1：运用资料，描述地球所处的宇宙环境。",
+  "based_on": "/Users/huyin/Swingboat/geo-story-studio/storage/builds/douyin-earth-life-conditions/v002（“距离合适不保证生命”“现今大气适合人类呼吸，但不是所有生命都需要氧气”“宜居不等于发现生命”等科学边界）",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": 4,
+  "voices": {
+    "zh": { "name": "zh-CN-XiaoxiaoNeural" },
+    "earth": { "name": "zh-CN-YunxiNeural", "rate": 6, "pitch": 2, "tag": "地球" },
+    "mercury": { "name": "zh-CN-YunjianNeural", "rate": 14, "pitch": 4, "tag": "水星" },
+    "venus": { "name": "zh-CN-XiaoyiNeural", "rate": 2, "pitch": -2, "tag": "金星" },
+    "mars": { "name": "zh-CN-YunxiaNeural", "rate": 0, "pitch": 0, "tag": "火星" }
+  },
+  "numbers": [
+    { "value": "约467℃，铅都能熔化；地面气压约为地球海平面的93倍", "what": "金星地表温度与气压；浓厚大气带来失控的温室效应，是太阳系最热的行星", "source": "NASA《Venus Facts》" },
+    { "value": "白天可达430℃，夜间可低至-180℃；几乎没有大气（只有稀薄的外逸层）", "what": "水星表面温度", "source": "NASA《Mercury Facts》" },
+    { "value": "最高约20℃，最低约-153℃；大气稀薄，液态水无法在地表长期存在，水多以冰的形式存在", "what": "火星温度、大气与水", "source": "NASA《Mars Facts》" },
+    { "value": "约15℃；若没有温室气体约-18℃", "what": "地球平均地表温度", "source": "NOAA GML《The Greenhouse Effect: Fact or Theory?》教学资料" },
+    { "value": "氮约78%、氧约21%、其他约1%", "what": "现今地球近地面大气组成", "source": "NASA《Facts About Earth》" },
+    { "value": "约71%", "what": "海洋覆盖地球表面的比例", "source": "NASA《Facts About Earth》" },
+    { "value": "外部：稳定的太阳光照、安全的宇宙环境（大小行星各行其道，互不干扰）；自身：适宜的温度（日地距离适中，自转、公转周期适中）、适合生物呼吸的大气（质量体积适中）、液态水", "what": "地球上存在生命的条件", "source": "人教版必修第一册 第一章第一节" }
+  ],
+  "sources": [
+    { "title": "普通高中教科书 地理 必修 第一册", "publisher": "人民教育出版社", "url": "http://www.pep.com.cn" },
+    { "title": "Venus Facts", "publisher": "NASA", "url": "https://science.nasa.gov/venus/venus-facts/" },
+    { "title": "Mercury Facts", "publisher": "NASA", "url": "https://science.nasa.gov/mercury/facts/" },
+    { "title": "Mars Facts", "publisher": "NASA", "url": "https://science.nasa.gov/mars/facts/" },
+    { "title": "Facts About Earth", "publisher": "NASA", "url": "https://science.nasa.gov/earth/facts/" },
+    { "title": "The Habitable Zone", "publisher": "NASA", "url": "https://science.nasa.gov/exoplanets/habitable-zone/" },
+    { "title": "The Greenhouse Effect: Fact or Theory?", "publisher": "NOAA Global Monitoring Laboratory", "url": "https://gml.noaa.gov/infodata/lesson_plans/The%20Greenhouse%20Effect-%20Fact%20of%20Theory.pdf" }
+  ],
+  "segments": [
+    { "id": "hook", "text": "到目前为止，人类只在地球上发现了生命。", "gap": 0.3 },
+    { "id": "open", "text": "地球凭什么？宜居星球面试会，开始！", "gap": 0.4 },
+    { "id": "e-claim", "voice": "earth", "text": "我先说！我离太阳不远不近，刚刚好！", "gap": 0.35 },
+    { "id": "quiz", "text": "距离就能决定冷热吗？抢答：太阳系最热的行星是谁？", "captions": ["距离就能决定冷热吗？", "抢答：", "太阳系最热的行星是谁？"], "gap": 0.3 },
+    { "id": "mer-guess", "voice": "mercury", "text": "我水星！我离太阳最近！", "gap": 0.2 },
+    { "id": "ven-win", "voice": "venus", "text": "错，是我金星！地表约467摄氏度，铅都能熔化。", "captions": ["错，是我金星！", "地表约467摄氏度，", "铅都能熔化"], "gap": 0.35 },
+    { "id": "ven-why", "text": "金星离太阳更远却更热，靠的是浓厚的二氧化碳大气，温室效应极强。", "captions": ["金星离太阳更远却更热，", "靠的是浓厚的二氧化碳大气，", "温室效应极强"], "gap": 0.35 },
+    { "id": "mer-swing", "voice": "mercury", "text": "我没大气，热量留不住：白天430度，夜里零下180度！", "captions": ["我没大气，热量留不住：", "白天430度，", "夜里零下180度！"], "gap": 0.3 },
+    { "id": "mars-cold", "voice": "mars", "text": "我大气太稀薄，最低零下153摄氏度……阿嚏！", "captions": ["我大气太稀薄，", "最低零下153摄氏度……", "阿嚏！"], "gap": 0.4 },
+    { "id": "e-temp", "text": "地球呢？日地距离适中，又有大气保温，平均气温约15摄氏度；没有大气，约零下18摄氏度。", "captions": ["地球呢？", "日地距离适中，", "又有大气保温，", "平均气温约15摄氏度；", "没有大气，", "约零下18摄氏度"], "gap": 0.3 },
+    { "id": "e-period", "text": "自转、公转周期适中，昼夜和季节温差也不太大。第一关：适宜的温度。", "captions": ["自转、公转周期适中，", "昼夜和季节温差也不太大。", "第一关：", "适宜的温度"], "gap": 0.45 },
+    { "id": "atm", "text": "第二关：大气。地球质量、体积适中，引力吸住了大量气体。", "captions": ["第二关：大气。", "地球质量、体积适中，", "引力吸住了大量气体"], "gap": 0.3 },
+    { "id": "ven-brag", "voice": "venus", "text": "大气我更多！地面气压是地球的90多倍！", "captions": ["大气我更多！", "地面气压是地球的90多倍！"], "gap": 0.2 },
+    { "id": "e-reply", "voice": "earth", "text": "可你全是二氧化碳，人没法呼吸呀。", "captions": ["可你全是二氧化碳，", "人没法呼吸呀"], "gap": 0.3 },
+    { "id": "atm-mix", "text": "地球大气经过漫长演化，现在以氮和氧为主，适合生物呼吸。不过，也有些微生物不需要氧气。", "captions": ["地球大气经过漫长演化，", "现在以氮和氧为主，", "适合生物呼吸。", "不过，", "也有些微生物不需要氧气"], "gap": 0.45 },
+    { "id": "water", "text": "第三关：液态水。", "gap": 0.2 },
+    { "id": "mars-ice", "voice": "mars", "text": "我也有水！就是大多冻成了冰。", "captions": ["我也有水！", "就是大多冻成了冰"], "gap": 0.3 },
+    { "id": "water-e", "text": "地球温度适宜，水能长期保持液态，海洋覆盖了地表约71%。", "captions": ["地球温度适宜，", "水能长期保持液态，", "海洋覆盖了地表约71%"], "gap": 0.45 },
+    { "id": "outer", "text": "还有外部条件：太阳稳定，光照稳定；大小行星各行其道、互不干扰，宇宙环境比较安全。", "captions": ["还有外部条件：", "太阳稳定，光照稳定；", "大小行星各行其道、", "互不干扰，", "宇宙环境比较安全"], "gap": 0.4 },
+    { "id": "e-proud", "voice": "earth", "text": "所以我能住人，不只靠距离！", "gap": 0.25 },
+    { "id": "combo", "text": "对，是几个条件同时满足。但要记住：宜居，不等于一定有生命。", "captions": ["对，是几个条件同时满足。", "但要记住：", "宜居，不等于一定有生命"], "gap": 0.45 },
+    { "id": "exam", "text": "考试分两头答：外部，稳定的光照、安全的宇宙环境；自身，适宜的温度、适合生物呼吸的大气、液态水。", "captions": ["考试分两头答：", "外部，", "稳定的光照、安全的宇宙环境；", "自身，", "适宜的温度、", "适合生物呼吸的大气、", "液态水"], "gap": 0.4 },
+    { "id": "transfer", "text": "下次听到“发现宜居行星”，就拿这几条，一项项去核对。", "captions": ["下次听到“发现宜居行星”，", "就拿这几条，", "一项项去核对"], "gap": 0.35 },
+    { "id": "end", "voice": "earth", "text": "一句话：地球宜居，靠的是条件组合拳！", "captions": ["一句话：", "地球宜居，", "靠的是条件组合拳！"] }
+  ]
+}

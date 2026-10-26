@@ -1,0 +1,376 @@
+{
+  "title": "把太阳系装进操场，会有多空？",
+  "curriculum": "人教版必修第一册 第一章第一节 地球的宇宙环境（太阳系的组成、八大行星距日顺序与分类、地球存在生命的条件）。课标1.1：运用资料，描述地球所处的宇宙环境。",
+  "based_on": "/Users/huyin/Swingboat/geo-story-studio/storage/builds/douyin-solar-system-scale/v006（“两把尺”的核心和已核验的 NASA/JPL 数据）",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": 4,
+  "voices": {
+    "zh": {
+      "name": "zh-CN-XiaoxiaoNeural"
+    },
+    "earth": {
+      "name": "zh-CN-YunxiNeural",
+      "rate": 6,
+      "pitch": 2,
+      "tag": "地球"
+    },
+    "jupiter": {
+      "name": "zh-CN-YunjianNeural",
+      "rate": 0,
+      "pitch": -6,
+      "tag": "木星"
+    },
+    "neptune": {
+      "name": "zh-CN-XiaoyiNeural",
+      "rate": 0,
+      "pitch": 2,
+      "tag": "海王星",
+      "fx": "aecho=0.8:0.6:220|420:0.35|0.2"
+    }
+  },
+  "scale": {
+    "rule": "所有天体按同一比例缩小：地球平均直径 12742 千米 → 1 厘米",
+    "earth_cm": 1,
+    "au_m": 117.4,
+    "sun_diameter_m": 1.09,
+    "planets": [
+      {
+        "name": "水星",
+        "diameter_cm": 0.38,
+        "distance_m": 45.4
+      },
+      {
+        "name": "金星",
+        "diameter_cm": 0.95,
+        "distance_m": 84.9
+      },
+      {
+        "name": "地球",
+        "diameter_cm": 1.0,
+        "distance_m": 117.4
+      },
+      {
+        "name": "火星",
+        "diameter_cm": 0.53,
+        "distance_m": 178.9
+      },
+      {
+        "name": "木星",
+        "diameter_cm": 10.97,
+        "distance_m": 610.8
+      },
+      {
+        "name": "土星",
+        "diameter_cm": 9.14,
+        "distance_m": 1119.7
+      },
+      {
+        "name": "天王星",
+        "diameter_cm": 3.98,
+        "distance_m": 2252.9
+      },
+      {
+        "name": "海王星",
+        "diameter_cm": 3.87,
+        "distance_m": 3530.4
+      }
+    ]
+  },
+  "numbers": [
+    {
+      "value": "木星约10.97、土星约9.14、天王星约3.98、海王星约3.86、金星约0.95、火星约0.53、水星约0.38（地球=1）",
+      "what": "行星平均直径之比",
+      "source": "NASA/JPL SSD《Planetary Physical Parameters》平均半径"
+    },
+    {
+      "value": "约109倍 → 模型中约1.1米",
+      "what": "太阳直径/地球直径",
+      "source": "NASA《Sun Facts》（直径约139万千米）；IAU 名义太阳半径 695700 km"
+    },
+    {
+      "value": "1 AU = 149597870.7 km ≈ 1.5亿千米；模型中约117米",
+      "what": "天文单位",
+      "source": "NASA/JPL SSD《Astrodynamic Parameters》"
+    },
+    {
+      "value": "水0.39、金0.72、地1.00、火1.52、木5.20、土9.54、天19.19、海30.07 AU",
+      "what": "行星轨道半长轴（J2000）",
+      "source": "NASA/JPL SSD《Approximate Positions of the Planets》Table 1"
+    },
+    {
+      "value": "约8分20秒；到海王星约4小时10分",
+      "what": "光行时",
+      "source": "NASA/JPL SSD《Astrodynamic Parameters》1 AU 光行时 499.005 s × 30.07"
+    },
+    {
+      "value": "约42分钟",
+      "what": "按步行5千米/时走完3.5千米",
+      "source": "由上表数据计算"
+    },
+    {
+      "value": "约100～110米",
+      "what": "标准足球场长度",
+      "source": "国际足联（IFAB）《足球竞赛规则》场地长度范围"
+    },
+    {
+      "value": "日地距离适中，地表温度适宜，有液态水",
+      "what": "地球存在生命的条件",
+      "source": "人教版必修第一册 第一章第一节"
+    }
+  ],
+  "sources": [
+    {
+      "title": "普通高中教科书 地理 必修 第一册",
+      "publisher": "人民教育出版社",
+      "url": "http://www.pep.com.cn"
+    },
+    {
+      "title": "About the Planets",
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/solar-system/planets/"
+    },
+    {
+      "title": "Sun Facts",
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/sun/facts/"
+    },
+    {
+      "title": "Planetary Physical Parameters",
+      "publisher": "NASA/JPL SSD",
+      "url": "https://ssd.jpl.nasa.gov/planets/phys_par.html"
+    },
+    {
+      "title": "Approximate Positions of the Planets",
+      "publisher": "NASA/JPL SSD",
+      "url": "https://ssd.jpl.nasa.gov/planets/approx_pos.html"
+    },
+    {
+      "title": "Astrodynamic Parameters",
+      "publisher": "NASA/JPL SSD",
+      "url": "https://ssd.jpl.nasa.gov/astro_par.html"
+    },
+    {
+      "title": "Asteroid Facts",
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/solar-system/asteroids/facts/"
+    }
+  ],
+  "segments": [
+    {
+      "id": "hook",
+      "text": "课本里的太阳系，八大行星挤得满满当当。",
+      "gap": 0.25
+    },
+    {
+      "id": "q",
+      "text": "可真实的太阳系，也这么挤吗？",
+      "gap": 0.5
+    },
+    {
+      "id": "hi",
+      "voice": "earth",
+      "text": "我是地球！今天把太阳系缩小，搬进学校操场！",
+      "captions": [
+        "我是地球！",
+        "今天把太阳系缩小，",
+        "搬进学校操场！"
+      ],
+      "gap": 0.4
+    },
+    {
+      "id": "rule",
+      "text": "规则只有一条：所有东西按同一比例缩小。地球，缩成1厘米的豆子。",
+      "captions": [
+        "规则只有一条：",
+        "所有东西按同一比例缩小。",
+        "地球，缩成1厘米的豆子。"
+      ],
+      "gap": 0.3
+    },
+    {
+      "id": "sun",
+      "text": "那太阳就是一个1.1米的大火球，差不多齐腰高。",
+      "captions": [
+        "那太阳就是一个1.1米的大火球，",
+        "差不多齐腰高。"
+      ],
+      "gap": 0.3
+    },
+    {
+      "id": "tiny",
+      "voice": "earth",
+      "text": "啊？我在太阳旁边，就是一粒豆！",
+      "gap": 0.45
+    },
+    {
+      "id": "small",
+      "text": "水星、火星比地球还小，金星和地球差不多。",
+      "gap": 0.3
+    },
+    {
+      "id": "jup",
+      "voice": "jupiter",
+      "text": "我是木星，直径是地球的11倍，行星老大！",
+      "captions": [
+        "我是木星，",
+        "直径是地球的11倍，",
+        "行星老大！"
+      ],
+      "gap": 0.3
+    },
+    {
+      "id": "big",
+      "text": "土星约9倍，天王星、海王星约4倍。",
+      "gap": 0.3
+    },
+    {
+      "id": "kind",
+      "text": "教材里，水金地火叫类地行星，木星、土星是巨行星，天王星、海王星是远日行星。",
+      "captions": [
+        "教材里，水金地火叫类地行星，",
+        "木星、土星是巨行星，",
+        "天王星、海王星是远日行星。"
+      ],
+      "gap": 0.55
+    },
+    {
+      "id": "turn",
+      "text": "大小比完，重头戏来了：距离！",
+      "gap": 0.35
+    },
+    {
+      "id": "walk",
+      "text": "太阳球放在操场一头，出发！水星45米，金星85米。",
+      "captions": [
+        "太阳球放在操场一头，出发！",
+        "水星45米，金星85米。"
+      ],
+      "gap": 0.25
+    },
+    {
+      "id": "earthd",
+      "text": "地球要走117米，比一个足球场还长！",
+      "captions": [
+        "地球要走117米，",
+        "比一个足球场还长！"
+      ],
+      "gap": 0.3
+    },
+    {
+      "id": "far",
+      "voice": "earth",
+      "text": "原来我离太阳这么远！",
+      "gap": 0.3
+    },
+    {
+      "id": "au",
+      "text": "这段日地平均距离，约1.5亿千米，叫作1个天文单位。",
+      "captions": [
+        "这段日地平均距离，",
+        "约1.5亿千米，",
+        "叫作1个天文单位。"
+      ],
+      "gap": 0.4
+    },
+    {
+      "id": "mars",
+      "text": "火星179米。再往外，火星和木星之间是小行星带。",
+      "captions": [
+        "火星179米。",
+        "再往外，",
+        "火星和木星之间是小行星带。"
+      ],
+      "gap": 0.3
+    },
+    {
+      "id": "jupd",
+      "text": "木星611米，已经走出校门了。",
+      "gap": 0.3
+    },
+    {
+      "id": "out",
+      "text": "土星1.1公里，天王星2.3公里，海王星，3.5公里！",
+      "captions": [
+        "土星1.1公里，",
+        "天王星2.3公里，",
+        "海王星，3.5公里！"
+      ],
+      "gap": 0.3
+    },
+    {
+      "id": "nep",
+      "voice": "neptune",
+      "text": "喂，有人看得见我吗？",
+      "gap": 0.35
+    },
+    {
+      "id": "time",
+      "text": "走到海王星要四十多分钟，光跑过去也要4个多小时。",
+      "captions": [
+        "走到海王星要四十多分钟，",
+        "光跑过去也要4个多小时。"
+      ],
+      "gap": 0.3
+    },
+    {
+      "id": "empty",
+      "text": "几颗豆子，散在几公里的空旷里。太阳系，大部分是空的。",
+      "captions": [
+        "几颗豆子，",
+        "散在几公里的空旷里。",
+        "太阳系，大部分是空的。"
+      ],
+      "gap": 0.55
+    },
+    {
+      "id": "ruler",
+      "text": "所以课本插图只能二选一：比大小用一把尺，比距离换一把尺。",
+      "captions": [
+        "所以课本插图只能二选一：",
+        "比大小用一把尺，",
+        "比距离换一把尺。"
+      ],
+      "gap": 0.45
+    },
+    {
+      "id": "life",
+      "text": "再看地球：离太阳不远不近，地表温度适宜，水能保持液态，这是生命存在的重要条件。",
+      "captions": [
+        "再看地球：离太阳不远不近，",
+        "地表温度适宜，",
+        "水能保持液态，",
+        "这是生命存在的重要条件。"
+      ],
+      "gap": 0.5
+    },
+    {
+      "id": "exam",
+      "text": "考试记牢：距日顺序水金地火木土天海，小行星带在火星和木星轨道之间。",
+      "captions": [
+        "考试记牢：",
+        "距日顺序水金地火木土天海，",
+        "小行星带在火星和木星轨道之间。"
+      ],
+      "gap": 0.5
+    },
+    {
+      "id": "sum",
+      "text": "一句话：行星很小，距离很大，太阳系空旷得很。",
+      "captions": [
+        "一句话：",
+        "行星很小，距离很大，",
+        "太阳系空旷得很。"
+      ],
+      "gap": 0.35
+    },
+    {
+      "id": "bye",
+      "voice": "earth",
+      "text": "下次再看太阳系图，记得它被压缩过哦！",
+      "captions": [
+        "下次再看太阳系图，",
+        "记得它被压缩过哦！"
+      ]
+    }
+  ]
+}

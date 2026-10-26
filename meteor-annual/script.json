@@ -1,0 +1,59 @@
+{
+  "title": "流星雨为什么能按年赴约？",
+  "status": "approved",
+  "curriculum": "人教版必修第一册 第一章第一节 地球的宇宙环境（天体：流星体与流星现象）；关联选择性必修1 第一章第一节 地球的自转和公转（公转周期约一年）。课标：运用资料，描述地球所处的宇宙环境。",
+  "source": "改编自 Geo Story Studio《流星雨为什么能按年赴约？》v002 审阅页；机制与数字核对 NASA Science、NASA/JPL Solar System Dynamics。",
+  "sources": [
+    { "title": "Meteor Showers", "publisher": "NASA Science", "url": "https://science.nasa.gov/solar-system/meteors-meteorites/meteor-showers/" },
+    { "title": "Meteor Streams", "publisher": "NASA/JPL Solar System Dynamics", "url": "https://ssd.jpl.nasa.gov/sb/meteor_streams.html" },
+    { "title": "Perseids Meteor Shower", "publisher": "NASA Science", "url": "https://science.nasa.gov/solar-system/meteors-meteorites/perseids/" },
+    { "title": "Meteors & Meteorites Facts", "publisher": "NASA Science", "url": "https://science.nasa.gov/solar-system/meteors-meteorites/facts/" }
+  ],
+  "numbers": {
+    "perseids_peak": "英仙座流星雨每年8月中旬前后达到高峰（NASA Science：Peak night Aug. 12-13）",
+    "swift_tuttle": "母彗星斯威夫特-塔特尔彗星绕太阳一周约133年（NASA Perseids 页写133年，Facts 页写135年，旁白取“一百三十多年”）",
+    "earth_orbit": "地球公转周期约一年",
+    "note": "不给出每小时流星数、颗粒速度、发光高度等未核对数字"
+  },
+  "rate": 0,
+  "voices": {
+    "zh": { "name": "zh-CN-XiaoxiaoNeural" },
+    "earth": { "name": "zh-CN-YunxiaNeural", "pitch": 4 },
+    "grain": { "name": "zh-CN-XiaoyiNeural", "rate": 6, "pitch": 4 }
+  },
+  "segments": [
+    { "id": "hook", "voice": "earth", "text": "奇怪，英仙座流星雨，怎么年年八月中旬都来？", "captions": ["奇怪，英仙座流星雨，", "怎么年年八月中旬都来？"], "gap": 0.3 },
+    { "id": "tease", "text": "它可没看日历。真正准时的，是地球自己。", "captions": ["它可没看日历。", "真正准时的，是地球自己。"], "gap": 0.5 },
+
+    { "id": "hello", "voice": "grain", "text": "嗨！我是彗星身上掉下来的一粒尘埃。", "captions": ["嗨！", "我是彗星身上掉下来的一粒尘埃。"], "gap": 0.3 },
+    { "id": "comet", "text": "彗星靠近太阳时受热，冰升华成气体，把尘埃颗粒也一起带了出来。", "captions": ["彗星靠近太阳时受热，", "冰升华成气体，", "把尘埃颗粒也一起带了出来。"], "gap": 0.25 },
+    { "id": "stream", "text": "这些颗粒继续绕太阳运行，越散越开，沿着彗星轨道铺成一条碎屑流。", "captions": ["这些颗粒继续绕太阳运行，", "越散越开，", "沿着彗星轨道铺成一条碎屑流。"], "gap": 0.3 },
+    { "id": "wait", "voice": "grain", "text": "我们就在这条路上转呀转，一转就是好多年。", "captions": ["我们就在这条路上转呀转，", "一转就是好多年。"], "gap": 0.3 },
+    { "id": "cross", "voice": "earth", "text": "可我的公转轨道，偏偏从这里穿过！", "captions": ["可我的公转轨道，", "偏偏从这里穿过！"], "gap": 0.4 },
+
+    { "id": "entry", "text": "地球闯进碎屑流，颗粒高速冲进大气，燃烧发光，划出一道道光迹。", "captions": ["地球闯进碎屑流，", "颗粒高速冲进大气，", "燃烧发光，", "划出一道道光迹。"], "gap": 0.2 },
+    { "id": "shine", "voice": "grain", "text": "冲呀！我亮啦！", "gap": 0.3 },
+    { "id": "shower", "text": "短时间里，许多流星像从同一方向射出，这就是流星雨。", "captions": ["短时间里，", "许多流星像从同一方向射出，", "这就是流星雨。"], "gap": 0.5 },
+
+    { "id": "key", "text": "关键来了：日历上的日期，其实对应着地球在公转轨道上的位置。", "captions": ["关键来了：", "日历上的日期，", "其实对应着", "地球在公转轨道上的位置。"], "gap": 0.25 },
+    { "id": "lap", "text": "地球公转一周约一年，每年相近的日子，又回到这个交会处。", "captions": ["地球公转一周约一年，", "每年相近的日子，", "又回到这个交会处。"], "gap": 0.25 },
+    { "id": "again", "voice": "earth", "text": "又是我，又到这一站！", "gap": 0.4 },
+
+    { "id": "comet133", "text": "英仙座流星雨的母彗星，一百三十多年才回来一次。可流星雨年年都有，因为碎屑流一直在那儿。", "captions": ["英仙座流星雨的母彗星，", "一百三十多年才回来一次。", "可流星雨年年都有，", "因为碎屑流一直在那儿。"], "gap": 0.4 },
+    { "id": "vary", "text": "不过碎屑有疏有密，再加上月光和天气，每年看到的流星多少不一样。", "captions": ["不过碎屑有疏有密，", "再加上月光和天气，", "每年看到的流星多少不一样。"], "gap": 0.45 },
+
+    { "id": "exam", "text": "答题记住：地球公转周期约一年，每年相近时间穿过同一碎屑流。", "captions": ["答题记住：", "地球公转周期约一年，", "每年相近时间", "穿过同一碎屑流。"], "gap": 0.35 },
+    { "id": "outro", "voice": "earth", "text": "所以不是流星守时，是我年年准点路过！", "captions": ["所以不是流星守时，", "是我年年准点路过！"] }
+  ],
+  "storyboard": [
+    { "scene": "A1 夜空导入", "segments": ["hook", "tease"], "visual": "山野夜空，流星从英仙座方向放射划过；台历“8月”页被一年年翻过又回到8月；拟人地球挠头，下句时地球眨眼得意。" },
+    { "scene": "A2 彗星掉渣", "segments": ["hello", "comet"], "visual": "一粒带眼睛的小尘埃从彗核上蹦出来打招呼；彗核受热，冰升华成气体向外喷，裹挟尘埃颗粒散出。" },
+    { "scene": "B1 碎屑流成形", "segments": ["stream", "wait"], "visual": "俯视太阳系：颗粒沿彗星轨道越散越开，铺成一条金色碎屑流，颗粒始终在动；小尘埃沿轨道转圈。" },
+    { "scene": "B2 轨道交会", "segments": ["cross"], "visual": "地球公转轨道（蓝）与碎屑流（金）交叉，交会点高亮闪烁，地球沿轨道开到交会点。" },
+    { "scene": "B3 冲进大气", "segments": ["entry", "shine", "shower"], "visual": "大气截面：颗粒在太空中是暗的，进入大气后才燃烧发光；小尘埃喊“我亮啦”后化作光迹消失；切地面视角，多条流星从同一辐射点四散。" },
+    { "scene": "C1 日历就是轨道", "segments": ["key", "lap", "again"], "visual": "地球公转轨道外圈标上12个月份，像一个大表盘；8月中旬落在交会处；地球连续绕完整一圈后再次点亮交会处，弹出“打卡”印章。" },
+    { "scene": "C2 彗星133年", "segments": ["comet133"], "visual": "左边地球圈数计数器飞快跳到133，右边彗星慢悠悠只走一圈；碎屑流始终亮着。" },
+    { "scene": "D1 数量会变", "segments": ["vary"], "visual": "三张卡依次弹出：碎屑疏密、月光、天气，同一片夜空的流星数量随之增减。" },
+    { "scene": "D2 答题与收尾", "segments": ["exam", "outro"], "visual": "答题卡：公转周期约一年 → 每年相近时间 → 穿过同一碎屑流，关键词依次高亮；地球得意收尾，转入片尾品牌卡。" }
+  ]
+}

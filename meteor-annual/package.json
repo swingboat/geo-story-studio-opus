@@ -1,0 +1,13 @@
+{
+  "name": "meteor-annual",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs",
+    "check": "node validate.mjs"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.11"
+  }
+}
